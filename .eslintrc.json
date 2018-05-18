@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "parserOptions": {
+    "allowImportExportEverywhere": true
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "fetch": false,
+    "localStorage": false
+  },
+  "rules": {
+    "jsx-a11y/href-no-hash": "off"
+  }
+}

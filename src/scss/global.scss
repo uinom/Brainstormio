@@ -1,0 +1,14 @@
+@import './variables.scss';
+@import './reset.scss';
+
+div {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text1);
+  background-color: var(--background);
+  font-family: var(--mainFont);
+  font-weight: var(--regular);
+  overflow-x: hidden;
+}
